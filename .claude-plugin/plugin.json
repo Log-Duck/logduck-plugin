@@ -1,6 +1,6 @@
 {
   "name": "logduck",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Set up and read LogDuck (event logging and notifications) from your agent: the LogDuck MCP server plus a skill that wires LogDuck into an app.",
   "author": { "name": "LogDuck", "url": "https://github.com/Log-Duck" },
   "homepage": "https://logduck.com/docs#connect-an-agent",
