@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "logduck": {
+      "type": "http",
+      "url": "https://api.logduck.com/mcp"
+    }
+  }
+}

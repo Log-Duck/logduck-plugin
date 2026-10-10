@@ -1,0 +1,12 @@
+{
+  "name": "logduck",
+  "owner": { "name": "LogDuck", "url": "https://github.com/Log-Duck" },
+  "description": "The LogDuck plugin: the LogDuck MCP server and the setup skill.",
+  "plugins": [
+    {
+      "name": "logduck",
+      "source": "./",
+      "description": "Set up and read LogDuck (event logging and notifications) from your agent."
+    }
+  ]
+}
