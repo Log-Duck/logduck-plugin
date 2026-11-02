@@ -17,7 +17,7 @@ Keep each tool's result; later steps use the ids it returns. Say what you are ab
 
 4. **Create them.** `list_event_categories` for the presets; `create_event_category` for any the proposal needs; then `create_event_type` for each, passing the category names in `categoryIds`. Check with `list_event_types`.
 
-5. **Mint the key.** `create_api_key` with `sourcetype` `server` for a backend or `client` for users' devices. A client key is readable by anyone who has the page or the app, so give it `allowedOrigins` (`https://*.example.com` covers the apex and every subdomain) for a website, or `allowsMissingOrigin: true` for a native app or CLI, which send no Origin header. The response carries the key exactly once: hand it to the user verbatim, tell them to store it as a secret, and never repeat it later. Refused means the user is not the owner - say so.
+5. **Mint the key.** `create_api_key` with `sourcetype` `server` for a backend or `client` for users' devices. A client key is readable by anyone who has the page or the app, so give it `allowedOrigins` (`https://*.example.com` covers the apex and every subdomain) for a website, or `allowsMissingOrigin: true` for a native app or CLI, which send no Origin header. The response carries the key exactly once: hand it to the user verbatim, tell them to store it as a secret, and never repeat it later. Refused means the user is neither the owner nor an admin - say so.
 
 6. **Print the snippet.** From the docs resource, give the install command and the smallest working example for the app's language, with the key placeholder and one of the event types created above.
 
